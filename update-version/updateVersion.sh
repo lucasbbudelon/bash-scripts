@@ -32,6 +32,7 @@ if [[ "$update" == "major" ]]; then
   patch=0
 elif [[ "$update" == "minor" ]]; then
   minor=$((minor+increment))
+  patch=0
 elif [[ "$update" == "patch" ]]; then
   patch=$((patch+increment))
 else

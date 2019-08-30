@@ -23,8 +23,8 @@ $ bash updateVersion.sh 5.1.3 major
 ```
 
 ```console
-$ bash updateVersion.sh 1.0.0 minor
-1.1.0
+$ bash updateVersion.sh 2.5.3 minor
+2.6.0
 ```
 
 ```console
