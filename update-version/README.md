@@ -18,21 +18,21 @@ Você deve informar os seguintes parâmetros:
 ### Exemplos
 
 ```console
-$ bash updateVersion.sh 5.1.3 major
+$ bash ./update-version.sh 5.1.3 major
 6.0.0
 ```
 
 ```console
-$ bash updateVersion.sh 2.5.3 minor
+$ bash ./update-version.sh 2.5.3 minor
 2.6.0
 ```
 
 ```console
-$ bash updateVersion.sh 2.5.22 patch
+$ bash ./update-version.sh 2.5.22 patch
 2.5.23
 ```
 
 ```console
-$ bash updateVersion.sh 8.5.3 patch 3
+$ bash ./update-version.sh 8.5.3 patch 3
 8.5.6
 ```
