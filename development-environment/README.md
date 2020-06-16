@@ -1,25 +1,19 @@
 # development-environment
 
-Scripts que ajudam a configurar o ambiente de desenvolvimento. Preencha o arquivo "development-environment" com todos os pacotes e softwares que você utiliza e rode os scripts para configurar seu ambiente.
-
-## check-development-environment
-
-Verifica se todos os pacotes e softwares para desenvolvimento estão instalados.
-
-```console
-bash ./check-development-environment.sh
-```
+Scripts que ajudam a configurar o ambiente de desenvolvimento. 
 
 ## install
 
+Constroi ambiente de desenvolvimento
+
 ```console
-sudo apt install git
-sudo apt install curl
-sudo apt install npm
+bash ./build-environment.sh
+```
 
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-sudo apt-get install -y nodejs
+## check-development-environment
 
-sudo npm install -g @angular/cli
-sudo npm install -g surge
+Verifica se todos os pacotes e softwares para desenvolvimento estão instalados
+
+```console
+bash ./check-development-environment.sh
 ```
